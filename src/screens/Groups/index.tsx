@@ -1,7 +1,8 @@
-import { Container, Text } from "./style"
+import { Container } from "./style"
 
 export function Groups() {
   return (
-    <Container><Text>A</Text></Container>
+    <Container>
+    </Container>
   )
 }
