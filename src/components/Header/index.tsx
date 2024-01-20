@@ -15,7 +15,6 @@ export function Header({ showBackButton = false}: Props) {
           </BackButton>
         )
       }
-
       <Logo source={LogoImg}/>
     </Container>
   )
