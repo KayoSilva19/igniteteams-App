@@ -1,6 +1,6 @@
-import { TouchableOpacity } from "react-native"
-import IonIcon from "@expo/vector-icons/Ionicons"
-import styled from "styled-components/native"
+import { TouchableOpacity } from 'react-native'
+import IonIcon from '@expo/vector-icons/Ionicons'
+import styled from 'styled-components/native'
 
 export const Container = styled(TouchableOpacity)`
   width: 100%;
@@ -18,7 +18,7 @@ export const Title = styled.Text`
   color: ${({ theme }) => theme.COLORS.GRAY_200};
 `
 export const UsersIcon = styled(IonIcon).attrs(({ theme }) => ({
-  name: "people",
+  name: 'people',
   size: 32,
   color: theme.COLORS.GREEN_700,
 }))`

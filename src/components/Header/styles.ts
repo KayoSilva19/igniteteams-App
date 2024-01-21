@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native'
 import IonIcons from '@expo/vector-icons/Ionicons'
 
 export const Container = styled.View`
